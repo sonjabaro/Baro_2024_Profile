@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,16 +13,16 @@
             padding: 20px;
         }
 
-        .responsive-image {
+        .responsive-video {
             float: left;
-            width: 150px; /* Adjust this width based on your preference */
+            width: 300px; /* Adjust this width based on your preference */
             height: auto;
-            margin-right: 20px; /* Adds some space between the image and text */
-            border-radius: 50%; /* Makes the image round, remove if you prefer square */
+            margin-right: 20px; /* Adds some space between the video and text */
+            border-radius: 5px; /* Optional: rounds the corners of the video */
         }
 
         .contact-info {
-            margin-left: 180px; /* Ensure the text doesn't overlap with the image */
+            margin-left: 320px; /* Ensure the text doesn't overlap with the video */
         }
 
         .clear {
@@ -34,10 +35,10 @@
 
         /* Responsive Design */
         @media only screen and (max-width: 600px) {
-            .responsive-image {
+            .responsive-video {
                 float: none;
                 margin-right: 0;
-                width: 100px;
+                width: 100%;
                 display: block;
                 margin: 0 auto;
             }
@@ -53,9 +54,10 @@
     <div class="container">
         <h1>Sonja Baro</h1>
         <h3>Get To Know Sonja</h3>
-        <a href="Baro intro (1) copy.mov" target="video/mp4">
-            <img src="sonjabaro_headshot.jpg" alt="Sonja Baro" class="responsive-image">
-        </a>
+        <video class="responsive-video" controls>
+            <source src="Baro intro (1) copy.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div class="contact-info">
             <p>Email: <a href="mailto:barosonja1@gmail.com">barosonja1@gmail.com</a></p>
             <p>Phone: (720) 841-0157</p>
@@ -63,6 +65,11 @@
             <p>Location: Lafayette, CO</p>
         </div>
         <div class="clear"></div>
+
+        <!-- The rest of your content stays the same -->
+    </div>
+</body>
+</html>
 
     </div>
 </body>
