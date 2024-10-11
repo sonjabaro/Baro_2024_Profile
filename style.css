@@ -20,7 +20,7 @@ body {
     padding: 20px;
     color: white;
     text-align: center;
-    border-right: 5px solid navy; /* Thicker right border */
+    border-right:none; /*solid navy; /* Thicker right border */
     box-sizing: border-box; /* Ensures padding and borders fit correctly */
 }
 
@@ -44,7 +44,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center; /* Center content inside the header */
-    border-bottom: 4px solid navy; /* Thicker bottom border for header */
+    border-bottom: none; /*4px solid navy; /* Thicker bottom border for header */
     border-right: none; /* Prevents border overlap with left rail */
     border-left:none; /* Prevents border overlap with content */
     box-sizing: border-box;
